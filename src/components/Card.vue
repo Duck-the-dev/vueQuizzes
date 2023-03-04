@@ -4,7 +4,10 @@ const props = defineProps({
   questions: Number,
 })
 
-let imgPath = '/src/assets/' + props.title + '.jpeg'
+let imgPath =
+  'https://raw.githubusercontent.com/Duck-the-dev/vueQuizzes/62eb203cd3d8115683578a7b91fe5c4e49ce4d5a/src/assets/' +
+  props.title +
+  '.jpeg'
 </script>
 
 <template>
