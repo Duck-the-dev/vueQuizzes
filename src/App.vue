@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
 import { useHead } from '@vueuse/head'
+import Home from './components/Home.vue'
 
 useHead({
   title: 'Duck-the-dev vue + vite Template',
@@ -49,15 +49,7 @@ useHead({
 </script>
 
 <template>
-  <div class="flex items-center justify-center">
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo h-44 w-44" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue h-44 w-44" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="LonesomeT0wn start" />
+  <Home />
 </template>
 
 <style scoped>
