@@ -2,7 +2,6 @@
 const props = defineProps({
   title: String,
   questions: Number,
-  imgSrc: String,
 })
 
 let imgPath =
@@ -14,7 +13,7 @@ let imgPath =
 <template>
   <div class="card card-compact mx-auto w-96 max-w-fit bg-base-100 text-center shadow-xl">
     <figure class="cursor-pointer">
-      <img :imgSrc="imgPath" :alt="title" />
+      <img :src="imgPath" :alt="title" />
     </figure>
     <div class="card-body">
       <h2 class="text-2xl font-bold">{{ title }}</h2>
