@@ -14,7 +14,7 @@ defineProps({
 <template>
   <div class="card card-compact mx-auto w-96 max-w-fit bg-base-100 text-center shadow-xl">
     <figure class="cursor-pointer">
-      <img :src="path" :alt="title" />
+      <img class="h-52 w-96" :src="path" :alt="title" />
     </figure>
     <div class="card-body">
       <h2 class="text-2xl font-bold">{{ title }}</h2>
