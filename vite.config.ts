@@ -12,8 +12,10 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 
 
+
 // https://vitejs.dev/config/
 export default defineConfig({
+
   optimizeDeps: {
     include: includeDeps,
     exclude: excludeDeps,
