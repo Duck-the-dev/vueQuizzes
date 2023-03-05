@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps({
   title: String,
-  questions: Number,
+  questionsNum: Number,
   imgPath: String,
 })
 </script>
@@ -16,7 +16,7 @@ defineProps({
       </figure>
       <div class="card-body">
         <h2 class="text-2xl font-bold">{{ title }}</h2>
-        <p class="text-md">{{ questions }} questions</p>
+        <p class="text-md">{{ questionsNum }} questions</p>
       </div>
     </div>
   </main>

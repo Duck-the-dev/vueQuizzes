@@ -6,18 +6,43 @@ import Chemistry from '../assets/Chemistry.webp'
 import Physics from '../assets/Physics.webp'
 import History from '../assets/History.webp'
 import Psychology from '../assets/Psychology.webp'
+import q from '../data/data.json'
+import { ref } from 'vue'
+
+const quizzes = ref(q)
+
+const images: { [key: string]: any } = {
+  Math: Math,
+  Biology: Biology,
+  Chemistry: Chemistry,
+  Physics: Physics,
+  History: History,
+  Psychology: Psychology,
+}
 </script>
 
 <template>
-  <h1 class="container mx-auto mb-8 mt-2 text-center text-5xl font-extrabold">quizzes</h1>
+  <div class="container mx-auto mb-8 mt-2">
+    <header>
+      <h1 class="mx-auto mb-8 mt-2 text-center text-5xl font-extrabold">quizzes</h1>
+      <input
+        id="searchInput"
+        name="search"
+        type="text"
+        placeholder="Search"
+        class="input-bordered input w-full max-w-xs"
+      />
+    </header>
+  </div>
 
   <div class="grid grid-flow-row gap-5 sm:grid-cols-3 md:grid-cols-3">
-    <Card title="Math" :questions="15" :img-path="Math" />
-    <Card title="Biology" :questions="15" :img-path="Biology" />
-    <Card title="Chemistry" :questions="15" :img-path="Chemistry" />
-    <Card title="Physics" :questions="15" :img-path="Physics" />
-    <Card title="History" :questions="15" :img-path="History" />
-    <Card title="Psychology" :questions="15" :img-path="Psychology" />
+    <Card
+      v-for="quiz in quizzes"
+      :key="quiz.id"
+      :title="quiz.name"
+      :questions-num="quiz.questions.length"
+      :img-path="images[quiz.name]"
+    />
   </div>
 </template>
 
