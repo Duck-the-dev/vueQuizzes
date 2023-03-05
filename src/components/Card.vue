@@ -11,8 +11,12 @@ defineProps({
     <div
       class="card card-compact mx-auto w-96 max-w-fit bg-base-100 text-center shadow-xl"
     >
-      <figure class="cursor-pointer">
-        <img class="h-64 w-96 object-cover" :src="imgPath" :alt="title" />
+      <figure>
+        <img
+          class="btn-ghost no-animation btn h-64 w-96 object-cover"
+          :src="imgPath"
+          :alt="title"
+        />
       </figure>
       <div class="card-body">
         <h2 class="text-2xl font-bold">{{ title }}</h2>
