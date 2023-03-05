@@ -6,10 +6,15 @@ import Chemistry from '../assets/Chemistry.webp'
 import Physics from '../assets/Physics.webp'
 import History from '../assets/History.webp'
 import Psychology from '../assets/Psychology.webp'
+import NoQuiz from './NoQuiz.vue'
 import q from '../data/data.json'
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 const quizzes = ref(q)
+const search = ref('')
+watch(search, () => {
+  quizzes.value = q.filter((quiz) => quiz.name.toLowerCase().includes(search.value))
+})
 
 const images: { [key: string]: any } = {
   Math: Math,
@@ -26,8 +31,7 @@ const images: { [key: string]: any } = {
     <header>
       <h1 class="mx-auto mb-8 mt-2 text-center text-5xl font-extrabold">quizzes</h1>
       <input
-        id="searchInput"
-        name="search"
+        v-model.trim="search"
         type="text"
         placeholder="Search"
         class="input-bordered input w-full max-w-xs"
@@ -44,6 +48,7 @@ const images: { [key: string]: any } = {
       :img-path="images[quiz.name]"
     />
   </div>
+  <NoQuiz v-show="quizzes.length == 0" />
 </template>
 
 <style scoped></style>

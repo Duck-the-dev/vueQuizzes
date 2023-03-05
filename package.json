@@ -3,9 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "engines": {
-    "node": ">=16.0.0 <18.0.0"
-  },
+
+  
   "scripts": {
     "dev": "cp env/env.dev .env && vite --mode dev",
     "clean:dist": "rimraf dist",

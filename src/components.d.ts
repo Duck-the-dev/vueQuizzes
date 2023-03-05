@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Card: typeof import('./components/Card.vue')['default']
     Home: typeof import('./components/Home.vue')['default']
+    NoQuiz: typeof import('./components/NoQuiz.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
