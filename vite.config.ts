@@ -8,6 +8,9 @@ import { configCompressPlugin } from './config/compress'
 import { VitePWA } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import imagemin from 'unplugin-imagemin/vite';
+
+
 
 
 
@@ -77,6 +80,34 @@ export default defineConfig({
     // https://github.com/antfu/unplugin-icons
     Icons({
       autoInstall: true,
+    }),
+
+    imagemin({
+      // Default mode squoosh. support squoosh and sharp
+      mode: 'sharp',
+      // Default configuration options for compressing different pictures
+      
+      compress: {
+        
+        jpg: {
+          quality: 0,
+        },
+        jpeg: {
+          quality: 70,
+        },
+        png: {
+          quality: 70,
+        },
+        webp: {
+          quality: 75,
+        },
+      },
+      // The type of picture converted after the build
+      conversion: [
+        { from: 'png', to: 'jpeg' },
+        { from: 'jpeg', to: 'webp' },
+
+      ]
     }),
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({

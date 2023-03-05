@@ -1,274 +1,70 @@
 {
   "\u0000plugin-vue:export-helper": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "\u0000vite/modulepreload-polyfill": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "index.html": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/@unhead/dom/dist/index.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/@unhead/shared/dist/index.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/@unhead/vue/dist/shared/vue.3c82dacb.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/@vueuse/head/dist/index.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/hookable/dist/index.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/unhead/dist/index.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/vite-ssg/dist/client/single-page.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/App.vue": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/App.vue?vue&type=style&index=0&scoped=7a7a37b1&lang.css": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/assets/Biology.webp": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/assets/Chemistry.webp": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/assets/History.webp": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/assets/Math.webp": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/assets/Physics.webp": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/assets/Psychology.webp": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/components/Card.vue": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/components/Card.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/components/Card.vue?vue&type=style&index=0&scoped=c6c3362a&lang.css": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/components/Home.vue": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/components/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/data/data.json": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/main.ts": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ],
   "src/style.css": [
-    "/assets/Math-98730ac7.webp",
-    "/assets/Biology-f8b11a02.webp",
-    "/assets/Chemistry-1ade1684.webp",
-    "/assets/Physics-c6694a38.webp",
-    "/assets/History-c76e26d0.webp",
-    "/assets/Psychology-fa86e43c.webp"
   ]
 }
