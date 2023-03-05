@@ -2,19 +2,14 @@
 defineProps({
   title: String,
   questions: Number,
-  path: String,
+  imgPath: String,
 })
-
-// let imgPath =
-//   'https://raw.githubusercontent.com/Duck-the-dev/vueQuizzes/main/src/assets/' +
-//   props.title +
-//   '.webp'
 </script>
 
 <template>
   <div class="card card-compact mx-auto w-96 max-w-fit bg-base-100 text-center shadow-xl">
     <figure class="cursor-pointer">
-      <img class="h-52 w-96" :src="path" :alt="title" />
+      <img :src="imgPath" :alt="title" />
     </figure>
     <div class="card-body">
       <h2 class="text-2xl font-bold">{{ title }}</h2>
@@ -23,4 +18,10 @@ defineProps({
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+img {
+  object-fit: cover;
+  width: 24rem;
+  height: 16rem;
+}
+</style>
