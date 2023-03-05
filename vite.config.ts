@@ -99,7 +99,7 @@ export default defineConfig({
           quality: 70,
         },
         webp: {
-          quality: 75,
+          quality: 50,
         },
       },
       // The type of picture converted after the build
