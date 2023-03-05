@@ -81,7 +81,7 @@ export default defineConfig({
     Icons({
       autoInstall: true,
     }),
-
+    //https://github.com/ErKeLost/unplugin-imagemin
     imagemin({
       // Default mode squoosh. support squoosh and sharp
       mode: 'sharp',
@@ -118,7 +118,7 @@ export default defineConfig({
           dither: 1,
         },
         webp: {
-          quality: 50,
+          quality: 70,
           alphaQuality: 100,
           lossless: false,
           nearLossless: false,
