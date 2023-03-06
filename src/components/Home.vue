@@ -12,8 +12,12 @@ import { ref, watch } from 'vue'
 
 const quizzes = ref(q)
 const search = ref('')
+
 watch(search, () => {
-  quizzes.value = q.filter((quiz) => quiz.name.toLowerCase().includes(search.value))
+  quizzes.value = q.filter(
+    (quiz) =>
+      quiz.name.toLowerCase().includes(search.value) || quiz.name.includes(search.value)
+  )
 })
 
 const images: { [key: string]: any } = {

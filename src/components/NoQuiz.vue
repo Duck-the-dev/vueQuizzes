@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div class="alert alert-error shadow-lg">
+  <button class="alert alert-error shadow-lg">
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -17,5 +17,5 @@
       </svg>
       <span>Error! Quiz not found.</span>
     </div>
-  </div>
+  </button>
 </template>
