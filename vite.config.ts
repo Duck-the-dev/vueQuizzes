@@ -7,11 +7,8 @@ import Components from 'unplugin-vue-components/vite'
 import { configCompressPlugin } from './config/compress'
 import { VitePWA } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
-import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+
 import imagemin from 'unplugin-imagemin/vite';
-
-
-
 
 
 
@@ -43,12 +40,17 @@ export default defineConfig({
       // Other options: https://github.com/GoogleChromeLabs/critters#usage
     },
   },
+
   plugins: [
     vue(),
+
+
     AutoImport({
+
+
       imports: ['vue', '@vueuse/core'],
       resolvers: [
-        ElementPlusResolver(),
+        // ElementPlusResolver(),
       ],
       dirs: [
         './composables/**',
@@ -80,6 +82,7 @@ export default defineConfig({
     // https://github.com/antfu/unplugin-icons
     Icons({
       autoInstall: true,
+      compiler: 'vue3' 
     }),
     //https://github.com/ErKeLost/unplugin-imagemin
     imagemin({
