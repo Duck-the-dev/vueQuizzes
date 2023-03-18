@@ -14,9 +14,8 @@ const images: { [key: string]: any } = {
   History: History,
   Psychology: Psychology,
 }
-
-
-const { quiz } = defineProps(['quiz'])
+//make a const called "quiz" to receive the props
+const quiz = defineProps<{ name: string; questions: any[] }>()
 </script>
 
 <template>

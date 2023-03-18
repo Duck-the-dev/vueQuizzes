@@ -16,11 +16,10 @@ watch(search, () => {
 </script>
 
 <template>
-<div class="container mx-auto mb-8 mt-2">
+  <div class="container mx-auto mb-8 mt-2">
     <header>
       <h1 class="mx-auto mb-8 mt-2 text-center text-5xl font-extrabold">quizzes</h1>
       <input
-
         v-model.trim="search"
         type="text"
         placeholder="Search"
@@ -29,9 +28,13 @@ watch(search, () => {
     </header>
   </div>
 
-
   <div class="grid grid-flow-row gap-5 sm:grid-cols-3 md:grid-cols-3">
-    <Card v-for="quiz in quizzes" :key="quiz.id" :quiz="quiz" />
+    <Card
+      v-for="quiz in quizzes"
+      :key="quiz.name"
+      :name="quiz.name"
+      :questions="quiz.questions"
+    />
   </div>
   <NoQuiz v-show="quizzes.length == 0" />
 </template>
