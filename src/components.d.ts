@@ -14,5 +14,6 @@ declare module '@vue/runtime-core' {
     NoQuiz: typeof import('./components/NoQuiz.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SearchBar: typeof import('./components/SearchBar.vue')['default']
   }
 }

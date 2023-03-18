@@ -424,90 +424,90 @@
     "questions": [
       {
         "id": 1,
-        "text": "8 ÷ 2(2 + 2)",
+        "text": "Which treaty was signed at the end of World War I",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "16",
+            "text": "Treaty of Paris",
             "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "1",
+            "text": "Treaty of Maastricht",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "8",
+            "text": "Treaty of Versailles",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "24",
+            "text": "Treaty of London",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 2,
-        "text": "sqrt(64) * 9",
+        "text": "When was the Great Crash of Wall Street?",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "4",
+            "text": "1929",
             "isCorrect": false
           },
           {
             "id": 2,
             "label": "B",
-            "text": "81",
+            "text": "1939",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "72",
+            "text": "1949",
             "isCorrect": true
           },
           {
             "id": 4,
             "label": "D",
-            "text": "144",
+            "text": "1959",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 3,
-        "text": "3 + 3 x 3 ÷ 3 - 3",
+        "text": "When did the wall of Berlin fall?",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "3",
+            "text": "1979",
             "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "1",
+            "text": "1983",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "9",
+            "text": "1986",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "16",
+            "text": "1989",
             "isCorrect": false
           }
         ]
@@ -521,90 +521,90 @@
     "questions": [
       {
         "id": 1,
-        "text": "8 ÷ 2(2 + 2)",
+        "text": "The word “psychology’ comes from:",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "16",
+            "text": "Latin",
             "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "1",
+            "text": "Spanish",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "8",
+            "text": "Greek",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "24",
+            "text": "Italian",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 2,
-        "text": "sqrt(64) * 9",
+        "text": "Psychology is defined as the scientific study of:",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "4",
+            "text": "people and things",
             "isCorrect": false
           },
           {
             "id": 2,
             "label": "B",
-            "text": "81",
+            "text": "emotions and beliefs",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "72",
+            "text": "perception and religion",
             "isCorrect": true
           },
           {
             "id": 4,
             "label": "D",
-            "text": "144",
+            "text": "mind and behaviour",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 3,
-        "text": "3 + 3 x 3 ÷ 3 - 3",
+        "text": "The Greek philosopher ______ believed that knowledge is acquired through experience and learning.",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "3",
+            "text": "Archimedes",
             "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "1",
+            "text": "Rousseau",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "9",
+            "text": "Plato",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "16",
+            "text": "Aristotle",
             "isCorrect": false
           }
         ]
